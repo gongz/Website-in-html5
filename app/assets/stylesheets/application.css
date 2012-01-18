@@ -1,7 +1,127 @@
-/*
- * This is a manifest file that'll automatically include all the stylesheets available in this directory
- * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
- * the top of the compiled file, but it's generally better to create a new file per style scope.
- *= require_self
- *= require_tree . 
-*/
+body {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 62.5%;
+
+}
+
+
+body{
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #666666;
+}
+a{
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none outside none;
+    padding: 0;
+}
+
+.page-width {
+    margin: auto;
+    max-width: 1200px;
+    min-width: 800px;
+    width: 80%;
+}
+
+#header {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/noise-blue.png") repeat scroll center center #4CACC7;
+}
+
+#banner {
+    padding: 30px 0;
+}
+
+#shake-down {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/shake-down.png") repeat-x scroll center bottom transparent;
+}
+
+#site-title a {
+    background: url('https://s3.amazonaws.com/sepersonal_test/imageForHtml5/archer.png')no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 124px;
+    margin: 0 auto 30px;
+    text-indent: -9999em;
+    width: 143px;
+}
+
+#site-description {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/rule-light.png") repeat-x scroll center center transparent;
+    color: #B9DFEA;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+#site-description span {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/noise-blue.png") repeat scroll center center #4CACC7;
+    padding: 0 0.5em;
+}
+
+
+nav#access {
+    float: left;
+    font-size: 2em;
+    text-transform: uppercase;
+    width: 160px;
+    font-weight: bold;
+    font-family: Arial Black;
+}
+nav#access .menu li {
+    margin: 0 0 0.2em;
+}
+nav#access .menu a {
+    -moz-transition: all 0.3s ease 0s;
+    color: #D6D6D6;
+    display: block;
+}
+nav#access .menu a:hover, nav#access li.current-menu-item a {
+    color: #222222;
+    text-decoration: none;
+}
+
+
+#social {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+#social li {
+    float: left;
+    margin: 0 0.2em 0 0;
+}
+#social li a {
+    -moz-transition: all 0.3s ease 0s;
+    opacity: 0.5;
+}
+#social li a:hover {
+    opacity: 1;
+}
+#social li.rss a {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/icons.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 34px;
+    text-indent: -9999em;
+    width: 33px;
+}
+#social li.twitter a {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/icons.png") no-repeat scroll 0 -34px transparent;
+    display: block;
+    height: 34px;
+    text-indent: -9999em;
+    width: 50px;
+}
+#social li.dribbble a {
+    background: url("https://s3.amazonaws.com/sepersonal_test/imageForHtml5/icons.png") no-repeat scroll 0 -147px transparent;
+    display: block;
+    height: 34px;
+    text-indent: -9999em;
+    width: 34px;
+}

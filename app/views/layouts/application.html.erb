@@ -7,8 +7,53 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id = "wrapper" class="" >
+  <header id="header">
+    <section id="shake-down">
+      <div id ="banner" class ="page-width" role = "banner">
+        <hgroup>
+          <div id ="site-title">
+            <a rel ="home" title ="Gong Zhang" href="#">Gong Zhang &ndash; Personal Website</a>
+          </div>
+          <div id ="site-description">
+            <span>Archer</span>
+          </div>
+        </hgroup>
+      </div>
+    </section>
+  </header>
+  <div id="main" class="page-width">
+      <nav id="access" role="navigation" style="position: fixed;">
+        <div class="menu-header">
+            <ul id="menu-main" class="menu">
+                <li class="menu-item">
+                    <a href="http://kyleschaeffer.com/portfolio/">My Work</a>
+                </li>
+                <li class="menu-item">
+                    <a href="http://kyleschaeffer.com/about-me/">About Me</a>
+                </li>
+                <li class="menu-item">
+                    <a href="http://kyleschaeffer.com/contact/">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+        <ul id="social">
+            <li class="rss">
+                <a title="RSS Feed" target="_blank" href="http://kyleschaeffer.com/feed/">RSS Feed</a>
+            </li>
+            <li class="twitter">
+                <a title="@kyleschaeffer on Twitter" target="_blank" href="http://twitter.com/#!/kyleschaeffer">@kyleschaeffer on Twitter</a>
+            </li>
+            <li class="dribbble">
+                <a title="kyleschaeffer on Dribbble" target="_blank" href="http://dribbble.com/kyleschaeffer">kyleschaeffer on Dribbble</a>
+            </li>
+        </ul>
+      </nav>
+  </div>
+  <div id="container" class="one-column">
+  </div>
+</div>
 
-<%= yield %>
 
 </body>
 </html>
